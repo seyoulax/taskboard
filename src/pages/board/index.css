@@ -1,0 +1,60 @@
+div.board-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+section.board-column{
+    background: rgb(129,121,247);
+    background: linear-gradient(90deg, rgba(129,121,247,1) 15%, rgba(96,118,201,1) 54%, rgba(100,185,203,1) 100%);
+    width: 20%;
+    height: max-content;
+    border: 2px solid  rgb(129,121,247);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.board-column > div{
+    margin-bottom: 20px;
+}
+div.column-title{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    font-weight: 550;
+    font-size: 30px;
+    color: white;
+}
+
+div.column-tasks{
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article.tasks-wrapper > div > span{
+    font-size: 25px;
+    font-weight: 525;
+}
+
+article.tasks-wrapper > div > div{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+div.icon-pinned-user{
+    width: 30px;
+    height: 30px;
+    border: 2px grey solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
